@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		B1F1E3CF25530E7E001C737A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F1E3CE25530E7E001C737A /* AppDelegate.m */; };
 		B1F1E3D225530E7E001C737A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F1E3D125530E7E001C737A /* SceneDelegate.m */; };
-		B1F1E3D525530E7E001C737A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F1E3D425530E7E001C737A /* ViewController.m */; };
+		B1F1E3D525530E7E001C737A /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F1E3D425530E7E001C737A /* GameViewController.m */; };
 		B1F1E3D825530E7E001C737A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1F1E3D625530E7E001C737A /* Main.storyboard */; };
 		B1F1E3DA25530E83001C737A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1F1E3D925530E83001C737A /* Assets.xcassets */; };
 		B1F1E3DD25530E83001C737A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1F1E3DB25530E83001C737A /* LaunchScreen.storyboard */; };
@@ -22,8 +22,8 @@
 		B1F1E3CE25530E7E001C737A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B1F1E3D025530E7E001C737A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		B1F1E3D125530E7E001C737A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		B1F1E3D325530E7E001C737A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B1F1E3D425530E7E001C737A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B1F1E3D325530E7E001C737A /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		B1F1E3D425530E7E001C737A /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		B1F1E3D725530E7E001C737A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1F1E3D925530E83001C737A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1F1E3DC25530E83001C737A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -65,8 +65,8 @@
 				B1F1E3CE25530E7E001C737A /* AppDelegate.m */,
 				B1F1E3D025530E7E001C737A /* SceneDelegate.h */,
 				B1F1E3D125530E7E001C737A /* SceneDelegate.m */,
-				B1F1E3D325530E7E001C737A /* ViewController.h */,
-				B1F1E3D425530E7E001C737A /* ViewController.m */,
+				B1F1E3D325530E7E001C737A /* GameViewController.h */,
+				B1F1E3D425530E7E001C737A /* GameViewController.m */,
 				B1F1E3D625530E7E001C737A /* Main.storyboard */,
 				B1F1E3D925530E83001C737A /* Assets.xcassets */,
 				B1F1E3DB25530E83001C737A /* LaunchScreen.storyboard */,
@@ -145,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1F1E3D525530E7E001C737A /* ViewController.m in Sources */,
+				B1F1E3D525530E7E001C737A /* GameViewController.m in Sources */,
 				B1F1E3CF25530E7E001C737A /* AppDelegate.m in Sources */,
 				B1F1E3E025530E83001C737A /* main.m in Sources */,
 				B1F1E3D225530E7E001C737A /* SceneDelegate.m in Sources */,
@@ -300,7 +300,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = home.PingPong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -318,7 +318,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = home.PingPong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
